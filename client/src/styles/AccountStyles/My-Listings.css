@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+
+#myListingsContainer {
+    margin: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px  white; */
+    /* border: 1px white; */
+    min-height: 100vh;
+}
+.inner-my-listing-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.all-my-listings{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: none; */
+}
+
+.add-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button{
+    /* border: 1px solid white; */
+    font-size: 75px;
+    color: #64FFDB;
+}
+
+.job-post-img{
+    width: 307px;
+    height: 361px;
+    z-index: 10;
+    position: relative;
+    bottom: 71px;
+    border-radius: 0px 4px 0px 0px;
+
+}
+
+.job-box{
+    width: 307px;
+    height: 481px;
+    background: #203354;
+    border-radius: 4px;
+    z-index: 2;
+    margin: 20px 15px;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s;
+    user-select: none;
+}
+
+.job-box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.28);
+
+}
+
+.job-price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    /* border: 1px solid white; */
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #203354;
+    border-radius: 0px 0px 7px 0px;
+    z-index: 100;
+    position: relative;
+    bottom: 12px;
+    padding: 4px;
+}
+
+.job-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(227, 227, 227);
+    /* border: 1px solid white; */
+    width: 255px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 3px;
+    overflow: hidden;
+}
+
+.job-post-decription-box{
+    /* border: 1px solid white; */
+    position: relative;
+    bottom: 68px;
+    height: 103px;
+
+}
+
+.job-post-description-top{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 9px;
+}
+
+.status-main-post{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32px;
+    color: #B9B9B9;
+}
+
+.status-symbol-main{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 19px;
+    left: 10px;
+}
+
+.status-box{
+    display: flex;
+    width: 84px;
+    margin-right: 15px;
+}
+
+
+.job-post-description-bottom{
+    /* border: 1px solid white; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-post-owner{
+    /* border: 1px solid white; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+    color: #B9B9B9;
+    width: 150px;
+    margin-left: 15px;
+    text-align: left;
+    
+
+}
+
+.job-post-date{
+    /* border: 1px solid white; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    color: #B9B9B9;
+    width: 191px;
+    margin-right: 14px;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.edit-button{
+    /* border: 1px solid white; */
+    font-size: 40px;
+    color: #64FFDB;
+    border-radius: 100%;
+    background-color: #203354;
+    padding: 8px;
+    position: relative;
+    bottom: 570px;
+    left: 270px;
+    z-index: 100;
+}
+
+.edit-button:hover{
+    cursor: pointer;
+    background-color: #1c2b44;
+}
+
+.form-background{
+    /* border: 1px solid pink; */
+    width: 100%;
+    /* background: #0B1C34; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 107px;
+    max-width: 1339px;
+    height: 508px;
+}
+
+.form-left{
+    /* border: 1px solid pink; */
+    width: 100%;
+    /* min-width: 300px; */
+}
+
+.description-text-area{
+    width: 93%;
+    height: 300px;
+    background: #203354;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 20px;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s;
+    letter-spacing: 1.3px;
+
+}
+
+.description-text-area:hover{
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.description-text-area::placeholder{
+    color: white;
+    opacity: 0.3;
+    line-height: 43px;
+
+
+
+}
+
+.add-input-name{
+    background-color: #203354;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 93%;
+    resize: none;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s;
+    letter-spacing: 1.3px;
+}
+
+.add-input-name:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.5);
+
+    
+}
+
+.add-input-name::placeholder{
+    color: white;
+    opacity: 0.3;
+}
+
+
+
+
+.my-account-data-box{
+    background: #203354;
+    width: 100%;
+    height: 78px;
+    position: relative;
+    bottom: 13px;
+}
+
+.my-account-form-data{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    /* border: 1px solid green; */
+    position: relative;
+    top: 25px;
+    left: 18px;
+    width: 80%;
+    letter-spacing: 0.7px;
+
+
+}
+
+.form-right{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upload-pic-box{
+    width: 93%;
+    height: 312px;
+    background: #203354;
+    /* margin-right: 20%; */
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.3);
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 23px;
+    cursor: move;
+}
+
+
+.upload-components-box{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    /* align-items: center; */
+
+}
+
+.upload-file-logo{
+    color: #64FFDB;
+    font-size: 70px;
+    font-weight: 200;
+    /* border: 1px solid white; */
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.upload-file-title{
+    color: white;
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    /* border: 1px solid white; */
+    width: 100%;
+    text-align: center;
+    user-select: none;
+
+}
+
+.upload-file-specifics{
+    color: white;
+    font-size: 17px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    opacity: 0.4;
+    letter-spacing: 0.8px;
+    width: 100%;
+    text-align: center;
+    margin-top: 1px;
+    user-select: none;
+}
+
+
+
+.upload-file-button{
+    /* border: 1px solid white; */
+    color:  #203354;
+    width: 170px;
+    
+}
+
+
+
+.upload-file-button::file-selector-button{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #64FFDB;
+    border: 4px solid #64FFDB;
+    border-radius: 10px;
+    width: 170px;
+    height: 60px;
+    background-color: #203354;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.upload-file-button::file-selector-button:hover{
+    cursor: pointer;
+    background-color: #64FFDB;
+    color: #203354;
+    /* border: 4px solid #203354; */
+
+}
+
+.upload-button-container{
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+
+}
+
+.status-container{
+    /* border: 1px solid white; */
+    width: 286px;
+}
+
+.price-container{
+    border: 1px  white;
+    width: 286px;
+}
+
+.status-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: white;
+    /* border: 1px solid white; */
+
+}
+
+.price-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: white;
+}
+
+.status-icon-and-dropdown{
+    /* border: 1px solid white; */
+    background: #203354;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.status-icon-and-dropdown:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 30%);
+}
+
+.status-icon-for-dropdown{
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid white; */
+    margin-left: 10px;
+}
+
+.status-dropdown-list{
+    border: 1px solid green;
+    /* padding: 100px; */
+    background: #203354;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* padding-right: 120px; */
+    padding: 25px 120px 25px 0px;
+    /* border: 1px solid white; */
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.input-dollar-sign{
+    color: white;
+}
+
+.price-input{
+    background: #203354;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* width: 100%; */
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* border: 1px solid white; */
+    width: 238px;
+
+}
+
+.price-input::placeholder{
+    color: white;
+    opacity: 0.65;
+}
+
+.price-input-container{
+    /* border: 1px solid white; */
+    border-radius: 4px;
+    background: #203354;
+    
+    padding: 20px 0px 20px 20px;
+}
+
+
+.input-dollar-sign{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    right: 8px;
+}
+
+.status-and-price-container{
+    
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    position: relative;
+    bottom: 16px;
+}
+
+.form-left, .form-right {
+    max-width: 618px;
+    margin: 0px 11px;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* min-height: 100vh; */
+    /* border: 1px solid white; */
+    height: 620px;
+}
+
+.form-and-buttons-container{
+    min-height: 100vh;
+}
+
+.inner-inner-button-container {
+    margin: 14px;
+}
+
+/* //max-width: 1339px; */
+
+.button-container{
+    /* border: 1px solid pink; */
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inner-button-container{
+    max-width: 1339px;
+    /* height: 50px; */
+    /* border: 1px solid sandybrown; */
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}ƒ
+
+.inner-inner-button-container{
+    /* border: 1px solid sandybrown; */
+    padding: 20px;
+    /* width: 500px; */
+
+}
+
+
+@media screen and (max-width: 1466px){
+    .form-background{
+        justify-content: center;
+    }
+
+    .status-and-price-container{
+        bottom: -55px;
+    }
+
+    .form-container{
+        height: 1189px;
+    }
+
+    .inner-button-container{
+    display: flex;
+
+        justify-content: center;
+    }
+}
+
+
+
+.listing-create-button, .listing-cancel-button, .listing-delete-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    width: 123px;
+    height: 46px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+.listing-create-button{
+    border: 3px solid #64FFDB;
+    color: #64FFDB;
+}
+
+
+.listing-create-button:hover{
+    border: 3px solid #64FFDB;
+    background: #64FFDB;
+    color: #132948;
+    cursor: pointer;
+}
+
+.listing-cancel-button{
+    border: 3px solid white;
+    color: white;
+}
+
+.listing-cancel-button:hover{
+    border: 3px solid #132948;
+    color:#132948;
+    background-color: white;
+    cursor: pointer;
+}
+
+.listing-delete-button{
+    border: 3px solid #EF8A6A;
+
+    color: #EF8A6A;
+}
+
+.listing-delete-button:hover{
+    border: 3px solid #132948;
+    color: #132948;
+    background-color: #EF8A6A;;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 678px) {
+    .form-container{
+        height: 1314px;
+    }
+
+    .inner-button-container{
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+}

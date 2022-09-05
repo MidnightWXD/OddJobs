@@ -1,0 +1,140 @@
+.my-account-outer-body{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.my-account-body{
+    /* border: 4px solid rgb(46, 104, 167); */
+    margin: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 75%;
+    max-width: 1108px;
+}
+
+.profile-and-signout{
+    /* border: 1px solid white; */
+    width: 380px;
+    justify-content: center;
+    margin-right: 84px;
+    margin-top: 39px;
+}
+
+.my-account-profile-pic{
+    /* border: 1px solid white; */
+    width: 378px;
+    height: 378px;
+    box-shadow: 0px 3px 36px 6px rgb(0 0 0 / 74%);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.admin-signout-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    width: 123px;
+    height: 45px;
+    border: 3px solid #EF8A6A;
+    border-radius: 30px;
+    text-align: center;
+    color: #EF8A6A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, color 0.5s;
+    user-select: none;
+    margin-top: 30px;
+    position: relative;
+    left: 130px;
+    top: 2px;
+    background-color: #EF8A6A;
+    color: #132948;
+
+}
+
+.admin-signout-button:hover{
+    cursor: pointer;
+    background-color: #EF8A6A;
+    color: #132948;
+}
+
+.my-account-form-box{
+    /* border: 1px solid white; */
+    width: 620px;
+    user-select: none;
+    margin-bottom: 53px;
+}
+
+.my-account-form{
+    /* border: 1px solid rgb(255, 238, 0); */
+    width: 100%;
+    margin-bottom: 42px;
+    /* height: 120px; */
+}
+
+
+
+.my-acccount-form-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: white;
+    /* border: 1px solid rgb(163, 70, 70); */
+}
+
+.my-account-data-box{
+    background: #203354;
+    width: 100%;
+    height: 78px;
+    position: relative;
+    bottom: 13px;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 17%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.my-account-form-data{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    /* border: 1px solid green; */
+    position: relative;
+    top: 21px;
+    left: 18px;
+    width: 80%;
+}
+
+.my-account-star-rating{
+    position: relative;
+    top: 16px;
+    left: 10px;
+}
+
+
+@media screen and (max-width: 1657px) {
+    .my-account-body{
+        justify-content: center;
+    }
+
+    .profile-and-signout{
+        margin-bottom: 61px;
+        margin-top: 0px;
+    }
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}

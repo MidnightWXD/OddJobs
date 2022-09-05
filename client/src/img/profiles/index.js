@@ -1,0 +1,26 @@
+const IMAGES = {
+    profile1: require('./1.svg').default,
+    profile2: require('./2.svg').default,
+    profile3: require('./3.svg').default,
+    profile4: require('./4.svg').default,
+    profile5: require('./5.svg').default,
+    profile6: require('./6.svg').default,
+    profile7: require('./7.svg').default,
+    profile8: require('./8.svg').default,
+    profile9: require('./9.svg').default,
+    profile10: require('./10.svg').default,
+    profile11: require('./11.svg').default,
+    profile12: require('./12.svg').default,
+    profile13: require('./13.svg').default,
+    profile14: require('./14.svg').default,
+    profile15: require('./15.svg').default,
+    profile16: require('./16.svg').default,
+    profile17: require('./17.svg').default,
+    profile18: require('./18.svg').default,
+    profile19: require('./19.svg').default,
+    profile20: require('./20.svg').default,
+    profile21: require('./21.svg').default,
+    profile22: require('./22.svg').default,
+}
+
+export default IMAGES;

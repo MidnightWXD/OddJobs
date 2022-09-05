@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Joel",
+        "email": "test@gmail.com", 
+        "password": "113456",
+        "image": "profile1",
+        "address": "11 Queen Street",
+        "postCode": "M4L 3H8"
+    },
+    {
+        "name": "Yuchen",
+        "email": "tes1t@gmail.com", 
+        "password": "1134567",
+        "image": "profile2",
+        "address": "14 Queen Street",
+        "postCode": "M4L 3H8"
+    },
+    {
+        "name": "Chris",
+        "email": "test1@gmail.com", 
+        "password": "1134568",
+        "image": "profile3",
+        "address": "16 Queen Street",
+        "postCode": "M4L 3H8"
+    },
+    {
+        "name": "Connor",
+        "email": "test3@gmail.com", 
+        "password": "1134569",
+        "image": "profile4",
+        "address": "18 Queen Street",
+        "postCode": "M4L 3H8"
+    },
+    {
+        "name": "John",
+        "email": "John@gmail.com",
+        "password": "1134570",
+        "image": "profile5",
+        "address": "10 Queen Street",
+        "postCode": "M3L 3B8"
+    },
+    {
+        "name": "Jane",
+        "email": "Jane@gmail.com",
+        "password": "1134571",
+        "image": "profile6",
+        "address": "11 Queen Street",
+        "postCode": "M3G 3C8"
+    },
+    {
+        "name": "Jack",
+        "email": "Jack@gmail.com",
+        "password": "1134571",
+        "image": "profile7",
+        "address": "14 Queen Street",
+        "postCode": "M3G 3C8"
+    },
+    {
+        "name": "Jill",
+        "email": "Jill@hotmail.com",
+        "password": "1134573",
+        "image": "profile8",
+        "address": "16 Queen Street",
+        "postCode": "M3G 3E8"
+    },
+    {
+        "name": "Juan",
+        "email": "Juan@mail.com",
+        "password": "1134574",
+        "image": "profile9",
+        "address": "18 Queen Street",
+        "postCode": "M3F 3E8"
+    },
+    {
+        "name": "Jenny",
+        "email": "Jenny@gmail.com",
+        "password": "1134575",
+        "image": "profile11",
+        "address": "30 Queen Street",
+        "postCode": "M3W 3E8"
+    },
+    {
+        "name": "Duo",
+        "email": "tDuot@gmail.com", 
+        "password": "113456",
+        "image": "profile14",
+        "address": "31 Queen Street",
+        "postCode": "M4P 3H8"
+    },
+    {
+        "name": "Liu",
+        "email": "teLiu@gmail.com", 
+        "password": "1134567",
+        "image": "profile13",
+        "address": "34 Queen Street",
+        "postCode": "M4R 3H8"
+    },
+    {
+        "name": "JoJo",
+        "email": "JoJo@gmail.com", 
+        "password": "1134568",
+        "image": "profile15",
+        "address": "34 Queen Street",
+        "postCode": "M4L 3S8"
+    },
+    {
+        "name": "COCO",
+        "email": "coco@gmail.com", 
+        "password": "1134569",
+        "image": "profile16",
+        "address": "36 Queen Street",
+        "postCode": "M4A 3H8"
+    },
+    {
+        "name": "Amy",
+        "email": "amy@gmail.com",
+        "password": "1134570",
+        "image": "profile17",
+        "address": "38 Queen Street",
+        "postCode": "M3L 3D8"
+    },
+    {
+        "name": "Bob",
+        "email": "bob@gmail.com",
+        "password": "1134571",
+        "image": "profile18",
+        "address": "40 Queen Street",
+        "postCode": "S3G 3C8"
+    },
+    {
+        "name": "Cindy",
+        "email": "Cindy@gmail.com",
+        "password": "1134571",
+        "image": "profile19",
+        "address": "41 Queen Street",
+        "postCode": "E3G 3C8"
+    },
+    {
+        "name": "Denny",
+        "email": "denny@hotmail.com",
+        "password": "1134573",
+        "image": "profile12",
+        "address": "44 Queen Street",
+        "postCode": "M3G 3Y8"
+    },
+    {
+        "name": "Ella",
+        "email": "ella@mail.com",
+        "password": "1134574",
+        "image": "profile14",
+        "address": "46 Queen Street",
+        "postCode": "L3F 3E8"
+    },
+    {
+        "name": "Fanny",
+        "email": "fanny@gmail.com",
+        "password": "1134575",
+        "image": "profile10",
+        "address": "48 Queen Street",
+        "postCode": "M3K 3E8"
+    }
+]

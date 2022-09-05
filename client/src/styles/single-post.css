@@ -1,0 +1,203 @@
+.single-post-container{
+    /* border: 1px solid white; */
+    margin: 0px 30px;
+    /* width: 100%; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.inner-post-container{
+    width: 100%;
+    max-width: 1156px;
+    /* border: 1px solid snow; */
+    /* margin: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.left-job-post-container{
+    display: flex;
+    justify-content: center;
+    max-width: 436px;
+}
+
+.right-job-post-container{
+    max-width: 674px;
+    margin-left: 23px;
+
+}
+
+.left-job-post-container, .right-job-post-container{
+    /* border: 1px solid snow; */
+    width: 100%;
+}
+
+
+.job-post-box{
+    width: 430px;
+    height: 487px;
+    background: #203354;
+    border-radius: 4px;
+    z-index: 2;
+    /* margin: 20px 15px; */
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s;
+    user-select: none;
+    /* border: 1px solid white; */
+}
+
+.job-post-price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #203354;
+    border-radius: 0px 0px 7px 0px;
+    z-index: 100;
+    position: relative;
+    bottom: 0px;
+    padding: 4px;
+    box-shadow: 14px 13px 24px -18px #000000;
+}
+
+.single-job-post-img{
+    width: 100%;
+    height: 413px;
+    z-index: 10;
+    position: relative;
+    bottom: 59px;
+    border-radius: 0px 4px 0px 0px;
+}
+
+
+.job-post-apply-button{
+    width: 100%;
+    max-width: 436px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* width: 123px; */
+    height: 60px;
+    border: 3px solid #64FFDB;
+    border-radius: 8px;
+    text-align: center;
+    color: #203354;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, color 0.5s;
+    background: #64FFDB;
+    cursor: pointer;
+    margin-top: 48px;
+}
+
+.job-post-apply-button:hover{
+    background-color: #203354;
+    color: #64FFDB;
+}
+
+
+.cancel{
+    background-color: #EF8A6A;
+    color: #203354;
+    border: 3px solid #EF8A6A;
+
+
+}
+
+.cancel:hover{
+    background-color: #203354;
+    color: #EF8A6A;
+    border: 3px solid #EF8A6A;
+    
+
+}
+
+
+.job-application-description-container{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.jop-appication-description-text-area{
+    width: 97.5%;
+    height: 203px;
+    background: #203354;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0.9;
+    line-height: 39px;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 13px;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 30%);
+    transition: box-shadow 0.3s;
+    letter-spacing: 1.3px;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+
+.jop-appication-location{
+    width: 97.5%;
+    height: 155px;
+    background: #203354;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0.9;
+    line-height: 39px;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 13px;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 30%);
+    transition: box-shadow 0.3s;
+    letter-spacing: 1.3px;
+    overflow: hidden;
+}
+
+.sp-location, .sp-description{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+
+@media screen and (max-width: 1158px) {
+    .inner-post-container{
+        justify-content: center;
+    }
+    .left-job-post-container{
+        margin-bottom: 48px;
+    }
+}

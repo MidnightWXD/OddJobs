@@ -1,0 +1,244 @@
+.login-container{
+    border: 1px solid rgb(95, 59, 59);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.right-login-container, .left-login-container{
+    border: 1px solid rgb(0, 0, 0);
+    /* width: 100%; */
+    /* min-width: 450px; */
+}
+
+.right-login-container{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+.signup-container{
+    /* border: 1px solid white; */
+    user-select: none;
+    min-height: 115vh;
+    display: flex;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+}
+
+
+
+
+
+.left-signup-container{
+    /* border: 1px solid white; */
+    width: 100%;
+    min-width: 700px;
+    background: linear-gradient(46deg, #0a192f 59.61%, #213c63 102.67%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-inner-container{
+    /* border: 1px solid white; */
+    padding: 10px;
+    position: relative;
+    bottom: 106px;
+}
+
+.signup-title-container{
+    display: flex;
+    /* border: 1px solid white; */
+    margin-bottom: 32px;
+
+}
+
+
+.signup-logo{
+    width: 166px;
+    height: 197px;
+}
+
+.signup-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 32px;
+    color: #64FFDB;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 46px;
+    margin-left: 29px;
+}
+
+.signup-description{
+    width: 491px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.7px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.top-signup-container{
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #51c1a7;
+    text-align: right;
+    letter-spacing: 0.7px;
+    /* opacity: 0.8; */
+    /* margin-top: 15px; */
+    margin-right: 39px;
+}
+
+.signup-form-cotainer{
+    /* border: 1px solid black; */
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-signup-form-container{
+    /* border: 1px solid green; */
+    padding: 10px;
+    width: 76%;
+    position: relative;
+    bottom: 106px;
+}
+
+.create-your-account-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    /* border: 1px solid orange; */
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.create{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    color: #51c1a7;
+}
+
+.signup-input-container{
+    /* border:1px sold green; */
+
+}
+
+.signup-input{
+    border: none;
+    outline: none;
+    /* border-bottom: 3px solid #64FFDB; */
+    background: rgb(237, 237, 237);
+    width: 96%;
+    height: 69px;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 8%);
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    padding-left: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 33px;
+}
+
+.signup-button{
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    height: 61px;
+    background-color: #51c1a7;
+    color: rgb(237, 237, 237);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 17%);
+    transition: background-color 0.4s;
+}
+
+.signup-button:hover{
+    background-color: #64FFDB;
+}
+
+.click-to-signup{
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    margin-top: -12px;
+    margin-bottom: 33px;
+    margin-right: 13px;
+    color: #51c1a7;
+    cursor: pointer;
+}
+
+.to-signup-link{
+    text-decoration: none;
+}
+
+.right-signup-container{
+    /* border: 1px solid white; */
+    width: 55%;
+    min-width: 700px;
+    background:rgb(237, 237, 237);
+}
+
+@media  screen and (max-width: 1227px) {
+    .signup-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .right-signup-container{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

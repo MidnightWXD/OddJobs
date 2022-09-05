@@ -1,0 +1,171 @@
+.applicationsContainer {
+    min-height: 100vh;
+    margin: 0px 30px;
+    /* border: solid rgb(248, 9, 9) 3px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.inner-applications-container{
+    /* border: 1px solid white; */
+    width: 100%;
+    max-width: 750px;
+    height: 500px;
+
+    margin-right: 38px;
+
+}
+
+.job-detail-container{
+    width: 100%;
+    max-width: 470px;
+    /* border: 1px solid greenyellow; */
+    background: #203354;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    margin-bottom: 34px;
+    cursor: pointer;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 14%);
+    
+}
+
+.applications-job-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    /* border: 1px solid white; */
+    width: 100%;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    opacity: 0.9;
+    position: relative;
+    top: 9px;
+    margin-left: 18px;
+    /* border-radius: 4px; */
+}
+
+.applications-status-box{
+    /* border: 1px solid orange; */
+    width: 84px;
+    display: flex;
+    
+    margin-right: 18px;
+}
+
+.applications-status-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: white;
+    opacity: 0.7;
+    /* border: 1px solid white; */
+    width: 54px;
+
+    /* margin-left: 18px; */
+    position: relative;
+    top: 10px;
+}
+
+.applications-status-icon{
+    width: 17px;
+    height: 17px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 28px;
+    left: 3px;
+
+}
+
+.job-applicants-container{
+    width: 100%;
+    /* border: 1px solid salmon; */
+    height: 73px;
+    background: #203354;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 27px;
+    box-shadow: 0px 0px 18px 5px rgb(0 0 0 / 14%);
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.username-and-pic-container{
+    /* border: 1px solid salmon; */
+    height: 73px;
+    width: 349px;
+    display: flex;
+}
+
+
+.job-applicant-profile-pic{
+    width: 55px;
+    height: 73px;
+    margin-left: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 18px 6px rgb(0 0 0 / 17%);
+}
+
+.job-applicant-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    /* border: 1px solid white; */
+    /* width: 100%;
+    max-width: 250px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* opacity: 0.9; */
+
+    margin-left: 14px;
+    position: relative;
+    top: 6px;
+}
+
+
+.rating-container{
+    /* border: 1px solid white; */
+    /* width: ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 299px;
+}
+
+
+
+@media screen and (max-width: 476px){
+    .job-detail-container{
+        height: 89px;
+        padding-bottom: 22px;
+    }
+
+    .applications-status-box{
+        position: relative;
+        left: 18px;
+        bottom: 22px;
+    }
+
+    .applications-job-title{
+        margin-left: 2px;
+    
+    }
+}
